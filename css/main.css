@@ -122,7 +122,7 @@
 /*End Animation two*/
 /*Start Animation three*/
 .an3 {
-  background-color: rgb(0, 102, 197);
+  background-color: rgb(4, 57, 107);
 }
 .an3 div {
   width: 70px;
@@ -201,7 +201,7 @@
 /*End Animation three*/
 /*Start Animation four*/
 .an4 {
-  background-color: rgb(241, 173, 62);
+  background-color: rgb(90, 49, 62);
 }
 
 .an4 div {
@@ -326,15 +326,14 @@
 /*Start Animation Five*/
 
 .an5 {
-  background-color: rgb(255, 30, 0);
+  background-color: #762d71;
   overflow: hidden;
 }
-.an5 .holder{
+.an5 .holder {
   background-color: transparent;
   width: 100%;
   height: 100px;
   position: relative;
-
 }
 .an5 div {
   width: 20px;
@@ -347,32 +346,29 @@
   border: 2px solid white;
   margin: 0 3px;
 }
-.an5 div:nth-child(1){
+.an5 div:nth-child(1) {
   animation: an5-e2 1s alternate infinite;
   -webkit-animation: an5-e2 1s alternate infinite;
 }
-.an5 div:nth-child(2){
+.an5 div:nth-child(2) {
   animation: an5-e2 1s alternate infinite 0.2s;
   -webkit-animation: an5-e2 1s alternate infinite 0.2s;
 }
-.an5 div:nth-child(3){
+.an5 div:nth-child(3) {
   animation: an5-e2 1s alternate infinite 0.5s;
   -webkit-animation: an5-e2 1s alternate infinite 0.5s;
 }
 
 @keyframes an5-e2 {
-  100%{
-   transform: translateY(20px) scale(1.2);
-   -webkit-transform: translateY(20px) scale(1.2);
-   -moz-transform: translateY(20px) scale(1.2);
-   -ms-transform: translateY(20px) scale(1.2);
-   -o-transform: translateY(20px) scale(1.2);
-   background-color: white;
+  100% {
+    transform: translateY(20px) scale(1.2);
+    -webkit-transform: translateY(20px) scale(1.2);
+    -moz-transform: translateY(20px) scale(1.2);
+    -ms-transform: translateY(20px) scale(1.2);
+    -o-transform: translateY(20px) scale(1.2);
+    background-color: white;
+  }
 }
- }
-
-
-
 
 /*End Animation Five*/
 /*End Animations*/
